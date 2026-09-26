@@ -40,12 +40,17 @@
   ],
   "dependencies": {
     "@noble/hashes": "^1.8.0",
-    "@theqrl/wallet.js": "^6.2.4",
+    "@theqrl/wallet.js": "^6.3.0",
     "@theqrl/web3": "^1.0.3",
     "dotenv": "^17.4.2"
   },
   "devDependencies": {
-    "@theqrl/mldsa87": "^2.1.3",
+    "@theqrl/mldsa87": "^2.2.0",
     "prettier": "^3.6.2"
+  },
+  "overrides": {
+    "@theqrl/mldsa87": "$@theqrl/mldsa87",
+    "@theqrl/qrl-cryptography": "0.3.3",
+    "@theqrl/wallet.js": "$@theqrl/wallet.js"
   }
 }
